@@ -37,7 +37,7 @@ Data :
 
 Data : 981 actions US pour 1929 pas de temps
 
-- Classification des Etats de marchés (état de jours) via la méthode de clustering de Louvain (juste à transposer la matrice des rendements pour obtenir les clusters de titres dans l'algorithme) -> nombre d'états de marchés stables au cours du temps (entre 3 et 10, calculé sur fenetre de calibration de 250 pas de temps)
+- Classification des Etats de marchés (état de jours) via la méthode de clustering de Louvain (note : il y a juste à transposer la matrice des rendements pour obtenir les clusters de titres dans l'algorithme) -> nombre d'états de marchés stables au cours du temps (entre 3 et 10, calculé sur fenetre de calibration de 250 pas de temps)
 - Stratégie basée sur les états de marchés :
   - Connaissant le dernier état de marché de la fenetre : 
     - Sélection de l'état suivant le plus fréquent dans la fenetre de calibration conditionnellement au dernier état de marché
