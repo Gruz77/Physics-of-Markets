@@ -56,5 +56,3 @@ Data : 981 actions US pour 1929 pas de temps
 - Gains et impacts de marché 
   - Etude du gain moyen des producteurs et spéculation en fonction de l'évolution des deux parties
   - Etude de la différence entre gain réel et espéré d'un agent entré en cours de jeu
-
-## Modèles d'agents
