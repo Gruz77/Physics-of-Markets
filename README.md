@@ -11,7 +11,7 @@ Data :
 - Données intraday : AAPLE et SPY pour 09-02-2012 et 10-02-2012 - échelle minutes de 9h à 16h (heures US)
 - Analyse empirique des rendements/log-rendements : 
   - Preuves de non-normalité : qq-plot, identification de queues grasses avec la ECDF en scale log-log et scale linear-log
-  - Autocorélation : décroissance très lente de l'autocorrélation de |r| : preuve d'une loi de puissance
+  - Autocorrélation : décroissance très lente de l'autocorrélation de |r| : preuve d'une loi de puissance
 - Mesures de volatilité:
   - Variations quadratiques
   - Estimateur de Garman-Klass
