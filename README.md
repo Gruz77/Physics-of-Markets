@@ -43,7 +43,7 @@ Data : 981 actions US pour 1929 pas de temps
     - Sélection de l'état suivant le plus fréquent dans la fenetre de calibration conditionnellement au dernier état de marché
     - Conditionnellement a cet état sélectionné, calcul de la moyenne des rendements de chaque actifs
     - Trie des rendements, short des 5 pires actifs et long des 5 meilleurs pour le pas suivant (tenue de position pour un pas seulement)
-    - Répétition de la strat sur 100 fenêtres glissantes pour les premières données, puis pour 100 fenêtres à partir du 100ème pas de temps : performance dans les deux cas
+    - Répétition de la strat sur 100 fenêtres glissantes pour les premières données, puis pour 100 fenêtres à partir du 1000ème pas de temps : performance dans les deux cas
 - Prédiction de la direction d'un titre :
   - Tentative de prédiction du signe du prochain rendment avec ANN / XGBoost : très peu de pouvoir prédictif (un peu plus de 50%)
   - LSTM a faire
