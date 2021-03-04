@@ -20,12 +20,13 @@ Les faits stylisés sont des régularités statistiques du comportement des marc
 ## Stratégies 
 
 Dans cette partie on travaille sur des stratégies très classiques de trend-following puis mean-reverting, sur différentes périodes afin de montrer qu'elles ne sont pas du tout stationnaires, et qu'il faut savoir être adaptatif aux niveaux des portefeuilles de stratégies pour pouvoir générer de la performance dans tous les cas. 
-Puis on s'intéressera à une première approche de donnée alternatives.
+Puis on s'intéressera ç une approche Deep Learning, et une première approche de donnée alternatives.
 
 - Trend Folowing (croisement de moyennes mobiles)
   - Grille de performances sur les paramètres de la strat (longueur des MB) entière et sur deux périodes -> preuve de non stationnarité de la stratégie
 - Mean-Reverting 
   - Grille de performances sur les paramètres de la strat entière et sur deux périodes -> preuve de non stationnarité de la stratégie
+- Utilisation d'un LSTM pour la préditcion et la prise de décision
 - Google Trend : Exemple Netflix
   - Récupération du score "interest_over_time" de "Netflix" via *pytrends* et long de l'actif Netflix si score > à un certain seuil (très discrétionnaire)
   - Possibilité que les sites streaming/tech soient liés aux recherches Google -> donnée alternative Google Trend intéressante
