@@ -19,6 +19,9 @@ Les faits stylisés sont des régularités statistiques du comportement des marc
 
 ## Stratégies 
 
+Dans cette partie on travaille sur des stratégies très classiques de trend-following puis mean-reverting, sur différentes périodes afin de montrer qu'elles ne sont pas du tout stationnaires, et qu'il faut savoir être adaptatif aux niveaux des portefeuilles de stratégies pour pouvoir générer de la performance dans tous les cas. 
+Puis on s'intéressera à une première approche de donnée alternatives.
+
 - Trend Folowing (croisement de moyennes mobiles)
   - Grille de performances sur les paramètres de la strat (longueur des MB) entière et sur deux périodes -> preuve de non stationnarité de la stratégie
 - Mean-Reverting 
