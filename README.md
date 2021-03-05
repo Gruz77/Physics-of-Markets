@@ -1,6 +1,6 @@
 # Physics-of-markets
 
-<img src="img/opening.jpeg" width="500"> 
+<img src="img/opening.png" width="450"> 
 
 
 Ce repo regroupe plusieurs projets liés à la dynamique des marché, tels que :
