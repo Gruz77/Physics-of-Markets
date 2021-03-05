@@ -5,8 +5,8 @@ Une stratégie peut être vue comme un diagnostic, c'est un outil de mesure, une
 On note que dans notre cas, pour notre signal noté ![img](http://www.sciweavers.org/tex2img.php?eq=x_t&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0), il est très important de décaler le pas temporel au temps suivant pour l'utiliser au temps t+1 (il ne faut pas inclure le rendement futur lorsqu'on utilise un signal sur le passé). 
 
 On a donc :
-![img](http://www.sciweavers.org/tex2img.php?eq=g_t%20%3D%20x_tr_%7Bt%2B1%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-Avec ![img](http://www.sciweavers.org/tex2img.php?eq=g&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) la valeur de la stratégie, ![img](http://www.sciweavers.org/tex2img.php?eq=x%20%5Cin%20%5C%7B-1%2C0%2C1%5C%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) notre signal, et ![img](http://www.sciweavers.org/tex2img.php?eq=r&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) le rendement (on utilise toujours des logs-rendements).
+g_t = x_t * r_(t+1)
+Avec x la valeur de la stratégie, g notre signal, et r le rendement (on utilise toujours des logs-rendements).
 
 Nous allons travailler sur des stratégies très classiques de trend-following puis mean-reverting, sur différentes périodes afin de montrer qu'elles ne sont pas du tout stationnaires, et qu'il faut savoir être adaptatif aux niveaux des portefeuilles de stratégies pour pouvoir générer de la performance. (Une stratégie qui marche aujourd'hui ne marchera très probablement plus demain). 
 
