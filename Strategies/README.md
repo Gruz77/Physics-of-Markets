@@ -12,16 +12,20 @@ Nous allons travailler sur des stratégies très classiques de trend-following p
 
 Puis on s'intéressera à une approche Deep Learning, et une première approche de donnée alternatives.
 
-- Trend Folowing (croisement de moyennes mobiles)
-  - Grille de performances sur les paramètres de la strat (longueur des MB) entière et sur deux périodes -> preuve de non stationnarité de la stratégie
-- Mean-Reverting 
-  - Grille de performances sur les paramètres de la strat entière et sur deux périodes -> preuve de non stationnarité de la stratégie
-- Utilisation d'un LSTM pour la prédiction et la prise de décision (à développer)
-- Google Trend : Exemple Netflix
+## Trend Folowing (croisement de moyennes mobiles)
+- Grille de performances sur les paramètres de la strat (longueur des MB) entière et sur deux périodes -> preuve de non stationnarité de la stratégie
+
+## Mean-Reverting 
+- Grille de performances sur les paramètres de la strat entière et sur deux périodes -> preuve de non stationnarité de la stratégie
+
+## Utilisation d'un LSTM pour la prédiction et la prise de décision (à développer)
+
+## Google Trend : 
+- Exemple Netflix
   - Récupération du score "interest_over_time" de "Netflix" via *pytrends* et long de l'actif Netflix si score > à un certain seuil (très discrétionnaire)
   - Possibilité que les sites streaming/tech soient liés aux recherches Google -> donnée alternative Google Trend intéressante
   - Grille de performance sur le paramètre de seuil
-- Google Trend : Crise
+- Portefeuille de Crise
   - consituer un portefeuille suceptible de baisser fortement en temps de crise sanitaire ou économique
   - suveillance des scores d'intérêt des mots "krach", "crisis", "virus" -> short des actifs en fonction de leur catégories
   - Preuve de la significativité du signal -> performance pour "virus" lors du covid par exemple 
