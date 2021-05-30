@@ -1,16 +1,20 @@
-# Etats de marchés
+<h1 lign='center'> Market States </h1
+  
 
-Data : 981 actions US pour 1929 pas de temps
+
+Data: 981 US stocks for 1929 time steps
 
 ## Louvain
-- Classification des Etats de marchés (état de jours) via la méthode de clustering de Louvain (note : il y a juste à transposer la matrice des rendements pour obtenir les clusters de titres dans l'algorithme) -> nombre d'états de marchés stables au cours du temps (entre 3 et 10, calculé sur fenetre de calibration de 250 pas de temps)
-## Stratégie basée sur les états de marchés
-- Connaissant le dernier état de marché de la fenetre : 
-  - Sélection de l'état suivant le plus fréquent dans la fenetre de calibration conditionnellement au dernier état de marché
-  - Conditionnellement a cet état sélectionné, calcul de la moyenne des rendements de chaque actifs
-  - Trie des rendements, short des 5 pires actifs et long des 5 meilleurs pour le pas suivant (tenue de position pour un pas seulement)
-  - Répétition de la strat sur 100 fenêtres glissantes pour les premières données, puis pour 100 fenêtres à partir du 1000ème pas de temps : performance dans les deux cas
+- Classification of market states (state of days) via the Louvain clustering method (note: there is just to transpose the matrix of returns to obtain the clusters of securities in the algorithm) -> number of stable market states over time (between 3 and 10, calculated on a calibration window of 250 time steps)
+## Strategy based on market states
+- Knowing the last market state of the window : 
+  - Selection of the next most frequent state in the calibration window conditional on the last market state
+  - Conditional on this selected state, calculation of the average of the returns of each asset
+  - Sort returns, short the 5 worst assets and long the 5 best for the next step (hold position for one step only)
+  - Repeat the strategy over 100 sliding windows for the first data, then for 100 windows from the 1000th time step: performance in both cases
  
-## Prédiction de la direction d'un titre (next steps)
-- Tentative de prédiction du signe du prochain rendement avec ANN / XGBoost : très peu de pouvoir prédictif (un peu plus de 50%)
-- A continuer : essayer d'autres architecture et d'autres réseaux tels que le LSTM.
+## Prediction of the direction of a security (next steps)
+- Attempt to predict the sign of the next return with ANN / XGBoost: very little predictive power (a little over 50%)
+- To be continued: try other architectures and other networks such as LSTM.
+
+Translated with www.DeepL.com/Translator (free version)
