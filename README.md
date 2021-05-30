@@ -1,4 +1,4 @@
-# <h2 align='center'>Physics-of-markets</h2>
+<h1 align='center'>Physics-of-markets</h1>
 
 <img src="img/opening.png" width="450"> 
 
