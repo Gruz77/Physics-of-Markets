@@ -1,18 +1,20 @@
-# Faits stylisés 
+<h1 align='center'> Stylized Facts </h1>
 
-Les faits stylisés sont des régularités statistiques du comportement des marchés.
+[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)</h1>
+
+Stylized facts are statistical regularities of market behaviour.
 
 - Data :  
-  - Données journalières : AAPL et SPY (tracker S&P500) via yfinance
-  - Données intraday : AAPLE et SPY pour 09-02-2012 et 10-02-2012 - échelle minutes de 9h à 16h (heures US) (fichier non fourni dans le repo)
+  - Daily data: AAPL and SPY (S&P500 tracker) via yfinance
+  - Intraday data: AAPLE and SPY for 09-02-2012 and 10-02-2012 - minute scale from 9am to 4pm (US time) (file not provided in repo)
  
-## Analyse empirique des rendements/log-rendements 
-- Preuves de non-normalité : qq-plot, identification de queues grasses avec la ECDF en scale log-log et scale linear-log
-- Autocorrélation : décroissance très lente de l'autocorrélation de |r| : preuve d'une loi de puissance
+## Empirical analysis of returns/log returns 
+- Evidence of non-normality: qq-plot, fat-tail identification with ECDF in scale log-log and scale linear-log
+- Autocorrelation: very slow decay of the autocorrelation of |r|: evidence of a power law
 
-## Mesures de volatilité:
-- Variations quadratiques
-- Estimateur de Garman-Klass
+## Measures of volatility:
+- Quadratic variations
+- Garman-Klass estimator
 
-## Estimations du nombre de sauts
-- Preuve d'un loi de puissance du nombre de sauts
+## Estimates of the number of jumps
+- Proof of a power law of the number of jumps
