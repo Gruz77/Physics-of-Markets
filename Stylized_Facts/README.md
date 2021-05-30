@@ -1,6 +1,6 @@
 <h1 align='center'> Stylized Facts </h1>
 
-[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)</h1>
+[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gruz77/Physics-of-Markets/blob/main/Stylized_Facts/Stylized_facts.ipynb)</h1>
 
 Stylized facts are statistical regularities of market behaviour.
 
