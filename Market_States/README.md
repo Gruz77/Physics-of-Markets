@@ -16,5 +16,3 @@ Data: 981 US stocks for 1929 time steps
 ## Prediction of the direction of a security (next steps)
 - Attempt to predict the sign of the next return with ANN / XGBoost: very little predictive power (a little over 50%)
 - To be continued: try other architectures and other networks such as LSTM.
-
-Translated with www.DeepL.com/Translator (free version)
