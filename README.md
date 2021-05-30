@@ -1,6 +1,6 @@
 <h1 align='center'>Physics of Markets</h1>
 
-<img src="img/opening.png" width="450"> 
+<img src="img/opening.png" width="450" align='center'> 
 
 
 Ce repo regroupe plusieurs projets liés à la dynamique des marché, tels que :
