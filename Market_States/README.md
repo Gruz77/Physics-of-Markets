@@ -1,6 +1,6 @@
 <h1 align='center'> Market States </h1>
   
-[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)</h1>
+[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gruz77/Physics-of-Markets/blob/main/Market_States/Market_States.ipynb)</h1>
 
 Data: 981 US stocks for 1929 time steps
 
