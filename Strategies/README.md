@@ -1,5 +1,7 @@
 <h1 align='center'> Strategies </h1>
 
+[<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gruz77/Physics-of-Markets/blob/main/Strategies/Strategies.ipynb)</h1>
+
 A strategy can be seen as a diagnostic, a measurement tool, a reduction of the information available on the markets, whose aim is to extract signal and increase it with respect to the noise. In other words, a strategy must be seen as a security (we can consider a portfolio of strategies).
 
 We note that in our case, for our signal noted x, it is very important to shift the time step to the next time to use it at time t+1 (we must not include the future return when using a signal on the past). 
