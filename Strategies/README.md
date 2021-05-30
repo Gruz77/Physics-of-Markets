@@ -1,32 +1,32 @@
-# Stratégies 
+<h1 align='center'> Strategies <h1>
 
-Une stratégie peut être vue comme un diagnostic, c'est un outil de mesure, une réduction de l'information disponible sur les marchés, dont le but est d'extraire du signal et de l'augmenter par rapport au bruit. En soit, une stratégie doit être vue comme un titre (on peut considérer un portefeuille de stratégies).
+A strategy can be seen as a diagnostic, a measurement tool, a reduction of the information available on the markets, whose aim is to extract signal and increase it with respect to the noise. In other words, a strategy must be seen as a security (we can consider a portfolio of strategies).
 
-On note que dans notre cas, pour notre signal noté x, il est très important de décaler le pas temporel au temps suivant pour l'utiliser au temps t+1 (il ne faut pas inclure le rendement futur lorsqu'on utilise un signal sur le passé). 
+We note that in our case, for our signal noted x, it is very important to shift the time step to the next time to use it at time t+1 (we must not include the future return when using a signal on the past). 
 
-On a donc :
+Thus, we have :
 g_t = x_t * r_(t+1)
-Avec g la valeur de la stratégie, x notre signal, et r le rendement (on utilise toujours des logs-rendements).
+With g the value of the strategy, x our signal, and r the return (we always use log returns).
 
-Nous allons travailler sur des stratégies très classiques de trend-following puis mean-reverting, sur différentes périodes afin de montrer qu'elles ne sont pas du tout stationnaires, et qu'il faut savoir être adaptatif aux niveaux des portefeuilles de stratégies pour pouvoir générer de la performance. (Une stratégie qui marche aujourd'hui ne marchera très probablement plus demain). 
+We are going to work on very classical trend-following and mean-reverting strategies, over different periods, in order to show that they are not at all stationary, and that we need to know how to be adaptive at the level of the strategy portfolios in order to generate performance. (A strategy that works today will probably not work tomorrow). 
 
-Puis on s'intéressera à une approche Deep Learning, et une première approche de donnée alternatives.
+Then we will look at a Deep Learning approach, and a first approach of "alternative" data.
 
-## Trend Folowing (croisement de moyennes mobiles)
-- Grille de performances sur les paramètres de la strat (longueur des MB) entière et sur deux périodes -> preuve de non stationnarité de la stratégie
+## Trend Folowing (crossing moving averages)
+- Performance grid on the parameters of the entire strategy (length of the MBs) and over two periods -> proof of non-stationarity of the strategy
 
 ## Mean-Reverting 
-- Grille de performances sur les paramètres de la strat entière et sur deux périodes -> preuve de non stationnarité de la stratégie
+- Performance grid on the parameters of the entire strat and over two periods -> proof of non-stationarity of the strategy
 
-## Utilisation d'un LSTM pour la prédiction et la prise de décision (à développer)
+## Use of an LSTM for prediction and decision making (to be developed)
 
 ## Google Trend : 
-- Exemple Netflix
-  - Récupération du score "interest_over_time" de "Netflix" via *pytrends* et long de l'actif Netflix si score > à un certain seuil (très discrétionnaire)
-  - Possibilité que les sites streaming/tech soient liés aux recherches Google -> donnée alternative Google Trend intéressante
-  - Grille de performance sur le paramètre de seuil
-- Portefeuille de Crise
-  - consituer un portefeuille suceptible de baisser fortement en temps de crise sanitaire ou économique
-  - suveillance des scores d'intérêt des mots "krach", "crisis", "virus" -> short des actifs en fonction de leur catégories
-  - Preuve de la significativité du signal -> performance pour "virus" lors du covid par exemple 
-  - Très discrétionnaire -> a utiliser en stratégies "défensives"
+- Example Netflix
+  - Retrieve the "interest_over_time" score of "Netflix" via *pytrends* and long the Netflix asset if score > a certain threshold (very discretionary)
+  - Possibility that streaming/tech sites are linked to Google searches -> interesting alternative Google Trend data
+  - Performance grid on threshold parameter
+- Crisis portfolio
+  - build up a portfolio that is likely to fall sharply in times of health or economic crisis
+  - monitoring of the interest scores of the words "crash", "crisis", "virus" -> short assets according to their categories
+  - Proof of signal significance -> performance for "virus" during covid for example 
+  - Very discretionary -> to be used in "defensive" strategies
