@@ -1,9 +1,9 @@
-# Modèle d'agents
+<h1 align='center'> Agent model </h1>
 
-## Jeu de la minorité grand canonique
-- Modèle d'agents de spéculateurs et producteurs (fournisseurs de prévisibilité)
-- Etude de la dynamique de la prévisibilité en fonction de l'évolution des paramètres du modèle (exemple : trop de spéculateurs pour pas assez de producteurs -> absence de prévisibilité -> explosion des fluctuations car ils apprennent du bruit -> herding)
+## Grand canonical minority game
+- Agent model of speculators and producers (predictability providers)
+- Study the dynamics of predictability as a function of the evolution of the model's parameters (example: too many speculators for not enough producers -> lack of predictability -> explosion of fluctuations because they learn from the noise -> herding)
 
-## Gains et impacts de marché 
-- Etude du gain moyen des producteurs et spéculation en fonction de l'évolution des deux parties
-- Etude de la différence entre gain réel et espéré d'un agent entré en cours de jeu
+## Market gains and impacts 
+- Study of the average gain of producers and speculation according to the evolution of the two parties
+- Study of the difference between the real and expected gain of an agent entering the game
