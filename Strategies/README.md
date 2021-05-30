@@ -1,4 +1,4 @@
-<h1 align='center'> Strategies <h1>
+<h1 align='center'> Strategies </h1>
 
 A strategy can be seen as a diagnostic, a measurement tool, a reduction of the information available on the markets, whose aim is to extract signal and increase it with respect to the noise. In other words, a strategy must be seen as a security (we can consider a portfolio of strategies).
 
