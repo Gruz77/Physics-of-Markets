@@ -2,7 +2,6 @@
 
 <h5 align='center'><img src="img/opening.png" width="450"></h5>
 
-
 Ce repo regroupe plusieurs projets liés à la dynamique des marché, tels que :
 - Faits stylisés (régularités statistiques du comportement des marchés) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 - Quelques stratégies implémentées [lien](https://github.com/Gruz77/Physics-of-Markets/tree/main/Strategies)
