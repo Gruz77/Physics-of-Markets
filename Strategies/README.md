@@ -28,10 +28,10 @@ Then we will look at a Deep Learning approach, and a first approach of "alternat
 ## Original strategies using Google Trend : 
 - Example Netflix
   - Retrieve the "interest_over_time" score of "Netflix" via *pytrends* and long the Netflix asset if score > a certain threshold (very discretionary)
-  - Possibility that streaming/tech sites are linked to Google searches -> interesting alternative Google Trend data
+  - Streaming/tech sites are linked to Google searches ? -> interesting "alternative" Google Trend data ?
   - Performance grid on threshold parameter
 - Crisis portfolio
-  - build up a portfolio that is likely to fall sharply in times of health or economic crisis
-  - monitoring of the interest scores of the words "crash", "crisis", "virus" -> short assets according to their categories
+  - Build up a sector portfolio that is likely to fall sharply in times of health or economic crisis
+  - Monitoring of the interest scores of the words "crash", "crisis", "virus" (why not ?) -> short assets according to their categories
   - Proof of signal significance -> performance for "virus" during covid for example 
-  - Very discretionary -> to be used in "defensive" strategies
+  - Very discretionary -> to be used in contrariant strategies
