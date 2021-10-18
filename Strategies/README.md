@@ -8,8 +8,8 @@ Avoid look-ahead bias: we note that in our case, for our signal noted x, it is v
 
 Thus, we have :
 <br>
-<center>g<sub>t</sub> = x<sub>t-1</sub>*r<sub>t</sub></center>
-<br>
+<p style="text-align:center">g<sub>t</sub> = x<sub>t-1</sub>*r<sub>t</sub></p>
+
 With :
 - g the value of the strategy
 - x our signal
