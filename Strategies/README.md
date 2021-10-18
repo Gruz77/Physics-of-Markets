@@ -17,8 +17,6 @@ With :
 
 We are going to work on very classical trend-following and mean-reverting strategies, over different periods, in order to show that they are not at all stationary, and that we need to know how to be adaptive at the level of the strategy portfolios in order to generate performance. (A strategy that works today will probably not work tomorrow). 
 
-Then we will look at a Deep Learning approach, and a first approach of "alternative" data.
-
 ## Trend Following (really basic: crossing moving averages)
 - Performance grid on the parameters of the entire strategy (length of the MBs) and over two periods -> proof of non-stationarity of the strategy
 
