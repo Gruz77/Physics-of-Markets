@@ -12,7 +12,7 @@ Stylized facts are statistical regularities of market behaviour.
 - Evidence of non-normality: qq-plot, fat-tail identification with ECDF in scale log-log and scale linear-log
 - Autocorrelation: very slow decay of the autocorrelation of |r|: evidence of a power law
 
-## Measures of volatility:
+## Volatility metrics comparisons:
 - Quadratic variations
 - Garman-Klass estimator
 
