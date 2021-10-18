@@ -33,5 +33,4 @@ Then we will look at a Deep Learning approach, and a first approach of "alternat
 - Crisis portfolio
   - Build up a sector portfolio that is likely to fall sharply in times of health or economic crisis
   - Monitoring of the interest scores of the words "crash", "crisis", "virus" (why not ?) -> short assets according to their categories
-  - Proof of signal significance -> performance for "virus" during covid for example 
   - Very discretionary -> to be used in contrariant strategies
