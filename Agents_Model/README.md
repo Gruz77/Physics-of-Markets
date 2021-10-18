@@ -1,4 +1,4 @@
-<h1 align='center'> Agent model </h1>
+<h1 align='center'> Agent model: Minority Game </h1>
 
 [<h1 align='center'>![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gruz77/Physics-of-Markets/blob/main/Agents_Model/Agents_model.ipynb)</h1>
 
