@@ -7,7 +7,7 @@ A strategy can be seen as a diagnostic, a measurement tool, a reduction of the i
 Avoid look-ahead bias: we note that in our case, for our signal noted x, it is very important to shift the time step to the next time to use it at time t+1 (we must not include the future return when using a signal on the past). 
 
 Thus, we have :
-g_t = x_t * r_(t+1)
+g_t = x_t * r_(t+1) g<sub>t;</sub> = x<sub>t-1</sub>*r<sub>t</sub>
 With g the value of the strategy, x our signal, and r the return (we always use log returns).
 
 We are going to work on very classical trend-following and mean-reverting strategies, over different periods, in order to show that they are not at all stationary, and that we need to know how to be adaptive at the level of the strategy portfolios in order to generate performance. (A strategy that works today will probably not work tomorrow). 
