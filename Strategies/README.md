@@ -25,7 +25,7 @@ Then we will look at a Deep Learning approach, and a first approach of "alternat
 ## Mean-Reverting 
 - Performance grid on the parameters of the entire strat and over two periods -> proof of non-stationarity of the strategy
 
-## "Fun" strategies using Google Trend : 
+## Original strategies using Google Trend : 
 - Example Netflix
   - Retrieve the "interest_over_time" score of "Netflix" via *pytrends* and long the Netflix asset if score > a certain threshold (very discretionary)
   - Possibility that streaming/tech sites are linked to Google searches -> interesting alternative Google Trend data
