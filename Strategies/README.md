@@ -14,13 +14,11 @@ We are going to work on very classical trend-following and mean-reverting strate
 
 Then we will look at a Deep Learning approach, and a first approach of "alternative" data.
 
-## Trend Folowing (crossing moving averages)
+## Trend Following (really basic: crossing moving averages)
 - Performance grid on the parameters of the entire strategy (length of the MBs) and over two periods -> proof of non-stationarity of the strategy
 
 ## Mean-Reverting 
 - Performance grid on the parameters of the entire strat and over two periods -> proof of non-stationarity of the strategy
-
-## Use of an LSTM for prediction and decision making (to be developed)
 
 ## Google Trend : 
 - Example Netflix
