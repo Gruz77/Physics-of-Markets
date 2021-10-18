@@ -12,7 +12,3 @@ Data: 981 US stocks for 1929 time steps
   - Conditional on this selected state, calculation of the average of the returns of each asset
   - Sort returns, short the 5 worst assets and long the 5 best for the next step (hold position for one step only)
   - Repeat the strategy over 100 sliding windows for the first data, then for 100 windows from the 1000th time step: performance in both cases
- 
-## Prediction of the direction of a security (next steps)
-- Attempt to predict the sign of the next return with ANN / XGBoost: very little predictive power (a little over 50%)
-- To be continued: try other architectures and other networks such as LSTM.
