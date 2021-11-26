@@ -29,6 +29,7 @@ We are going to work on very classical trend-following and mean-reverting strate
   - Streaming/tech sites are linked to Google searches ? -> interesting "alternative" Google Trend data ?
   - Performance grid on threshold parameter
 - Crisis portfolio
-  - Build up a sector portfolio that is likely to fall sharply in times of health or economic crisis
-  - Monitoring of the interest scores of the words "crash", "crisis", "virus" (why not ?) -> short assets according to their categories
-  - Very discretionary -> to be used in contrariant strategies
+  - Build up a sector portfolio that is likely to fall sharply in times of economic crisis
+  - Monitoring of the interest scores of the words "crash", "crisis", "virus" (why not ?) -> short assets according to their categories when a threshold is crossed
+  - Very slow frequence -> to be used as a contrariant
+  - Indeed if the google trend scores increase it means that we are already in a crisis...
